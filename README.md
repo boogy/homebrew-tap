@@ -14,7 +14,3 @@ Or in one step:
 ```sh
 brew install boogy/tap/<package>
 ```
-
-## Notes
-
-- Packages under `Casks/` (and any `Formula/`) are generated automatically by [GoReleaser](https://goreleaser.com) from each project’s own repository on release — do not edit them by hand.
