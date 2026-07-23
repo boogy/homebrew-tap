@@ -1,21 +1,20 @@
 # boogy/homebrew-tap
 
-Homebrew tap for [`cloudtrail-rs`](https://github.com/boogy/cloudtrail-rs) tooling.
+Personal [Homebrew](https://brew.sh) tap — a collection of formulae and casks.
 
-## Install
-
-```sh
-brew install boogy/tap/cloudtrail-rs
-```
-
-Or add the tap first:
+## Usage
 
 ```sh
 brew tap boogy/tap
-brew install cloudtrail-rs
+brew install <package>
+```
+
+Or in one step:
+
+```sh
+brew install boogy/tap/<package>
 ```
 
 ## Notes
 
-- Casks in this tap are generated automatically by [GoReleaser](https://goreleaser.com) on each release of the source repo — do not edit `Casks/` by hand.
-- The `cloudtrail-rs` CLI ships an Apple Silicon (arm64) macOS binary.
+- Packages under `Casks/` (and any `Formula/`) are generated automatically by [GoReleaser](https://goreleaser.com) from each project’s own repository on release — do not edit them by hand.
