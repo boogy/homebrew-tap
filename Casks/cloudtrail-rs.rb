@@ -1,6 +1,6 @@
 cask "cloudtrail-rs" do
-  version "0.1.1"
-  sha256 "7c707da93538269bd2bc0fd3b2220c575b54cba517703863b044cd4aeab6d8b7"
+  version "0.2.0"
+  sha256 "39f7b5e1f3e98ebdb5b77a03edbc22ff84941dbb76ed72e9aad70e6331469d23"
 
   url "https://github.com/boogy/cloudtrail-rs/releases/download/v#{version}/cli-#{version}-darwin-arm64.tar.gz"
   name "cloudtrail-rs"
