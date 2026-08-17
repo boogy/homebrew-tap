@@ -2,28 +2,28 @@
 class Argus < Formula
   desc "Capture what AI coding agents actually did, and export it as OTLP/JSON"
   homepage "https://github.com/boogy/argus"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/boogy/argus/releases/download/v0.2.0/argus-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b982336f1eded83cdd236b0ef50c81fcbf580f12fb01a59efa3d1cbeb6f6cf47"
+      url "https://github.com/boogy/argus/releases/download/v0.3.0/argus-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "1542074d23068295eb06bbe2ad059f1cce9ff6f9e6be9e59d12e7399e1c35ac8"
     end
     on_intel do
-      url "https://github.com/boogy/argus/releases/download/v0.2.0/argus-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ac5bffe92efa36d4efb1abd7701272caf14b9750b6bdbb7d2a06ae6b5144e52b"
+      url "https://github.com/boogy/argus/releases/download/v0.3.0/argus-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "68754d3e26c78c9fae5a4143d4259df92ba311bbb6aa23601c1687acaa81b2d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/boogy/argus/releases/download/v0.2.0/argus-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "98fa5b0351f186c199f344db1ea7e36b7a599066e4abc709e8637755b1935725"
+      url "https://github.com/boogy/argus/releases/download/v0.3.0/argus-0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e6a5db3fc6793e150ec7c73e4cd23ec335d45fa08445a71db6e5ef66adf8c75c"
     end
     on_intel do
-      url "https://github.com/boogy/argus/releases/download/v0.2.0/argus-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "66938f4a414c337e75c3339ce94e733d8947d4d6a9edaedf48f6218cea3d418a"
+      url "https://github.com/boogy/argus/releases/download/v0.3.0/argus-0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "24da4b0d63f7743e2ab91975a90bbb0b110952fc51daa84e5bb9d1e8f1d09d5b"
     end
   end
 
